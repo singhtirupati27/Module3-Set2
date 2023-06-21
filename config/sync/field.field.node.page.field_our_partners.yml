@@ -1,0 +1,38 @@
+uuid: 76bc20f4-6f11-4506-a320-308162702cdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_our_partners
+    - node.type.page
+  module:
+    - image
+id: node.page.field_our_partners
+field_name: field_our_partners
+entity_type: node
+bundle: page
+label: 'Our Partners'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

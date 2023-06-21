@@ -1,0 +1,20 @@
+uuid: 51613ffb-6ba6-407b-8679-490e06d27d55
+langcode: en
+status: true
+dependencies:
+  module:
+    - entityqueue
+    - node
+id: node.field_top_3_products
+field_name: field_top_3_products
+entity_type: node
+type: entity_reference
+settings:
+  target_type: entity_subqueue
+module: core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

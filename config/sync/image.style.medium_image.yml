@@ -1,0 +1,14 @@
+uuid: 0db905c4-7885-4a55-a68f-340be5501770
+langcode: en
+status: true
+dependencies: {  }
+name: medium_image
+label: 'Medium Image (200x200)'
+effects:
+  8fe29b8e-18c9-4be9-8132-31ccac120ed8:
+    uuid: 8fe29b8e-18c9-4be9-8132-31ccac120ed8
+    id: image_resize
+    weight: 1
+    data:
+      width: 200
+      height: 200

@@ -1,0 +1,14 @@
+uuid: bd0a60dd-ed68-42ca-ab72-9cefbd2944ff
+langcode: en
+status: true
+dependencies: {  }
+name: small_image_50x50
+label: 'Small Image (50x50)'
+effects:
+  e1c5a8f8-edfc-4404-8673-c55c5bcc50a6:
+    uuid: e1c5a8f8-edfc-4404-8673-c55c5bcc50a6
+    id: image_resize
+    weight: 1
+    data:
+      width: 50
+      height: 50
