@@ -1,0 +1,30 @@
+uuid: 74244679-f8e7-47f6-957f-748d0e2b3e01
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:get_in_touch_block:e914af0b-46b8-4ade-9417-bf4f80cb1460'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: getintouchbanner
+theme: olivero
+region: content_above
+weight: -8
+provider: null
+plugin: 'block_content:e914af0b-46b8-4ade-9417-bf4f80cb1460'
+settings:
+  id: 'block_content:e914af0b-46b8-4ade-9417-bf4f80cb1460'
+  label: 'Get In Touch Banner'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact

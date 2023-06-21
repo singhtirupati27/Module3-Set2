@@ -1,0 +1,25 @@
+uuid: 656dd8a3-7f2b-4562-9ba3-88be178d5fb4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:531f4f81-c7a2-47a1-9e09-1b9de634aff7'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: copyright
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:531f4f81-c7a2-47a1-9e09-1b9de634aff7'
+settings:
+  id: 'block_content:531f4f81-c7a2-47a1-9e09-1b9de634aff7'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

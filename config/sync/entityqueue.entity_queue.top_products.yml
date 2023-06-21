@@ -1,0 +1,33 @@
+uuid: 83c77487-fd0f-4fb8-852e-b25e7e2acced
+langcode: en
+status: true
+dependencies:
+  module:
+    - entityqueue_smartqueue
+    - node
+id: top_products
+label: 'Top Products'
+handler: smartqueue
+handler_configuration:
+  entity_type: node
+  bundles:
+    product: product
+    article: 0
+    page: 0
+    news: 0
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      product: product
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 3
+  max_size: 3
+  act_as_queue: false
+  reverse: false

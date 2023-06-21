@@ -1,0 +1,27 @@
+uuid: ad2e02d1-72a6-4628-9207-8751ac0dd4f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.get_in_touch_block
+    - field.field.block_content.get_in_touch_block.field_banner
+    - image.style.banner_image_400x800_
+  module:
+    - image
+id: block_content.get_in_touch_block.default
+targetEntityType: block_content
+bundle: get_in_touch_block
+mode: default
+content:
+  field_banner:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: banner_image_400x800_
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

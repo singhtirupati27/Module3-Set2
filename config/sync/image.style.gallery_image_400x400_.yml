@@ -1,0 +1,14 @@
+uuid: 13838f10-7e31-4c55-ae05-2c85bd129f18
+langcode: en
+status: true
+dependencies: {  }
+name: gallery_image_400x400_
+label: 'Gallery Image (400x400)'
+effects:
+  dc1ac0fa-439e-4448-b12e-f91a61d3e1bf:
+    uuid: dc1ac0fa-439e-4448-b12e-f91a61d3e1bf
+    id: image_resize
+    weight: 1
+    data:
+      width: 400
+      height: 400
